@@ -29,11 +29,11 @@ export SSH_TAG="allow-ssh" # Optional: Tag for SSH access
 
 # MariaDB/Galera Settings
 export GALERA_CLUSTER_NAME="gcp_galera_cluster"
-export DB_ROOT_PASSWORD="p@s5W0rd.t00r" # CHANGE THIS!
-export PMM_AGENT_PASSWORD="p@s5W0rd.mmp" # CHANGE THIS!
-export PMM_ADMIN_PASSWORD="p@s5W0rd.mmp_n1mda"
+export DB_ROOT_PASSWORD="" # CHANGE THIS!
+export PMM_AGENT_PASSWORD="" # CHANGE THIS!
+export PMM_ADMIN_PASSWORD=""
 export EXTERNAL_DB_USER="dbateam"
-export EXTERNAL_DB_PASSWORD="p@s5W0rd.ma3tabd"
+export EXTERNAL_DB_PASSWORD=""
 
 # --- End Configuration ---
 
