@@ -529,9 +529,6 @@ echo "Cleaning up resources..."
 # Delete Forwarding Rule
 gcloud compute forwarding-rules delete galera-forwarding-rule --region=$REGION --quiet
 
-# Delete Target Proxy
-gcloud compute target-tcp-proxies delete galera-tcp-proxy --region=$REGION --quiet
-
 # Delete Backend Service
 gcloud compute backend-services delete galera-backend-service --region=$REGION --quiet
 
